@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="general">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,51 +7,50 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-    <section class="intro white centerText">
-        <div class="intro-body">
-            <div class="container">
-                <div class="columns center">
+<body class="main">
+    <section class="intro intro--white intro--centerText">
+        <div class="intro__body">
+            <div class="intro__container">
+                <div class="columns columns--center">
                     <div class="column">
-                        <h1 class="title spaces desktop-xxl  mobile-l">Full-Stack Web Developer</h1>
+                        <h1 class="title title--spaces desktop-xxl mobile-l">Full-Stack Web Developer</h1>
                         <h2 class="subtitle">No matter how complicated it is, I make it simple</h2>
                         <img class="sticker" src="Me.jpg">
                     </div>
                 </div>
             </div>
-
         </div>
-        <div class="intro-foot">
-            <div class="container">
+        <div class="intro__foot">
+            <div class="intro__container">
                 <img class="bottom" src="hero-devices.svg" >
             </div>
         </div>
     </section>
-    <section class="section medium primary centerText long">
-        <div class="container">
-            <div class="columns center">
+    <section class="section section--medium section--primary section--centerText section--long">
+        <div class="section__container">
+            <div class="columns columns--center">
                 <div class="column">
-                    <h1 class="title spaces desktop-l mobile-m">Hello I'm Hadi. Nice to meet you</h1>
-                    <h2 class="subtitle desktop-s normalText">Since the beginning of my journey as a computer sciences student and lover, I have always been wanting to share my knowledge with other students
+                    <h1 class="title title--spaces desktop-l mobile-m">Hello I'm Hadi. Nice to meet you</h1>
+                    <h2 class="subtitle desktop-s subtitle--normalText">Since the beginning of my journey as a computer sciences student and lover, I have always been wanting to share my knowledge with other students
                     and colleagues. I'm hard-working, enthusiastic and working on myself to always be better</h2>
                 </div>
             </div>
         </div>
     </section>
-    <section class="section skills centerText">
-        <div class="container narrow">
-            <div class="box">
-                <div class="content">
-                    <div class="columns center">
+    <section class="section section__skills section--centerText">
+        <div class="section__container container--narrow">
+            <div class="section__box">
+                <div class="box__content">
+                    <div class="columns columns--center">
                         <div class="column">
                             <!-- small icon -->
                             <span></span>
-                            <h1 class="title size-medium spaces">Full-Stack Developer</h1>
+                            <h1 class="title size-medium title--spaces">Full-Stack Developer</h1>
                             <p>I love to translate a complicated idead into a simple looking website</p>
-                            <p class="titleForList primaryText normalText">Languages I use:</p>
+                            <p class="titleForList text--primary subtitle--normalText">Languages I use:</p>
                             <p>HTML, CSS, PHP, JavaScript, Java</p>
-                            <p class="titleForList primaryText normalText">Dev Tools:</p>
-                            <ul>
+                            <p class="titleForList text--primary subtitle--normalText">Dev Tools:</p>
+                            <ul class="list">
                                 <li>VSCode</li>
                                 <li>Git</li>
                                 <li>Github</li>
@@ -62,12 +61,12 @@
                     <div class="column">
                         <!-- small icon -->
                         <span></span>
-                        <h1 class="title size-medium spaces">Mobile App Developer</h1>
+                        <h1 class="title size-medium title--spaces">Mobile App Developer</h1>
                         <p>I like to code things from scratch, and enjoy bringing ideas to life on mobile devices.</p>
-                        <p class="titleForList primaryText normalText">Languages I use:</p>
+                        <p class="titleForList text--primary subtitle--normalText">Languages I use:</p>
                         <p>Swift, Kotlin, JavaScript, Java</p>
-                        <p class="titleForList primaryText normalText">Dev Tools:</p>
-                        <ul>
+                        <p class="titleForList text--primary subtitle--normalText">Dev Tools:</p>
+                        <ul class="list">
                             <li>Android Studio</li>
                             <li>Xcode</li>
                             <li>Github</li>
@@ -79,26 +78,26 @@
             </div>
         </div>
     </section>
-    <section class="section projects medium white centerText">
-        <div class="container narrow">
-            <h1 class="title spaces desktop-l mobile-m">Recent Projects</h1>
+    <section class="section section__projects section--medium section--white section--centerText">
+        <div class="section__container container--narrow">
+            <h1 class="title title--spaces desktop-l mobile-m">Recent Projects</h1>
             <h2 class="subtitle desktop-s">Here are a few past projects I've worked on</h2>
-            <div class="grid">
-                <div class="columns wrap flex">
-                    <div class="column mobile12">
+            <div class="projects__grid">
+                <div class="columns columns--wrap columns--flex">
+                    <div class="column column--mobile12">
                         <figure class="image">
                             <img class="projectGlimpse" src="to-do-list.jpg" >
-                            <figcaption>
+                            <figcaption class="figCap">
                                 <h1 class="title size-small widescreen-m">A small university project</h1>
-                                <a class="button primary outline round" href="https//github.com/HadiHajj21">See more</a>
+                                <a class="button button--primary--outline button--round" href="https//github.com/HadiHajj21">See more</a>
                             </figcaption>
                             <div class="overlay"></div>
                         </figure>
                     </div>
-                    <div class="column mobile12">
+                    <div class="column column--mobile12">
                         <figure class="image">
                             <img class="projectGlimpse" src="mobile-app.webp" >
-                            <figcaption>
+                            <figcaption class="figCap">
                                 <h1 class="title size-small widescreen-m">Mobile Application</h1>
                                 <p>Adding something soon hopefully!</p>
                             </figcaption>
@@ -108,7 +107,7 @@
                     <div class="column mobile12">
                         <figure class="image">
                             <img class="projectGlimpse" src="website.jpg" >
-                            <figcaption>
+                            <figcaption class="figCap">
                                 <h1 class="title size-small widescreen-m">First Official Website</h1>
                                 <p>Same goes here</p>
                             </figcaption>
@@ -120,21 +119,21 @@
             </div>
         </div>
     </section>
-    <footer class="section primary centerText">
-        <div class="container narrow">
-            <div class="columns center">
+    <footer class="section section__footer section--primary section--centerText">
+        <div class="section__container container--narrow">
+            <div class="columns columns--center">
                 <div class="column">
-                    <h1 class="title normalText">Always Heading Up. One Level at a Time</h1>
+                    <h1 class="title subtitle--normalText">Always Heading Up. One Level at a Time</h1>
                 </div>
             </div>
             <div class="social-icons">
-                <p class="iconsContainer">
-                    <a class="button medium" href="https://www.linkedin.com/in/hadi-al-hajj-b1860a267">
+                <p class="section__container">
+                    <a class="button button--medium" href="https://www.linkedin.com/in/hadi-al-hajj-b1860a267">
                         <span class="icon">
                             <i class="fa fa-linkedin"></i>
                         </span>
                     </a>
-                    <a class="button medium" href="mailto:hadialhajj213@gmail.com">
+                    <a class="button button--medium" href="mailto:hadialhajj213@gmail.com">
                         <span class="icon">
                             <i class="fa fa-envelope"></i>
                         </span>
